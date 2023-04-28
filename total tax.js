@@ -1,0 +1,10 @@
+let sales = 95000;
+let stateTaxRate = 0.04;
+let countryTaxRate = 0.02;
+let stateTax = sales * stateTaxRate;
+let countryTax = sales * countryTaxRate;
+let totalTax = countryTax + stateTax;
+document.write("Sales is: " + sales + "</br>");
+document.write(" State Tax is: " + stateTax + "</br>");
+document.write("Country tax is: " + countryTax + "</br>");
+document.write("Total tax is: " + totalTax);
